@@ -7,7 +7,8 @@ async function main() {
   console.log("Deploying contract with account:", deployer.address);
   // 顯示部署者餘額
   console.log("Deployer account balance:", (await deployer.getBalance()).toString());
-  // 部署
+
+  // Deploy KnotCoin
   const KnotCoin = await hre.ethers.getContractFactory("KnotCoin");
   const kc = await KnotCoin.deploy();
 
@@ -15,6 +16,14 @@ async function main() {
 
   console.log("KC token deployed to:", kc.address);
   console.log("Deployer account balance:", (await deployer.getBalance()).toString());
+
+  // Deploy KnotNFT
+  const KnotNFT = await hre.ethers.getContractFactory("KnotNFT");
+  const knft = await KnotNFT.deploy();
+
+  await knft.deployed();
+
+  console.log("KC NFT deployed to:", knft.address);
 }
 
 main()
