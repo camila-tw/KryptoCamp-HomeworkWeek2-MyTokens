@@ -16,14 +16,6 @@ async function main() {
 
   console.log("KC token deployed to:", kc.address);
   console.log("Deployer account balance:", (await deployer.getBalance()).toString());
-
-  // Deploy KnotNFT
-  const KnotNFT = await hre.ethers.getContractFactory("KnotNFT");
-  const knft = await KnotNFT.deploy();
-
-  await knft.deployed();
-
-  console.log("KC NFT deployed to:", knft.address);
 }
 
 main()
