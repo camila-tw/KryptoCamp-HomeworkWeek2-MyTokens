@@ -32,7 +32,7 @@
      ![](./Snapshots/KNFT%20to%200x3c5f78f5836A2bbB046cf6d7254fEFb52cEb8aD3.png) 
 
 +  Injected Web3（Metamask）
-    - 發行合約地址合約地址 [0x3c5f78f5836A2bbB046cf6d7254fEFb52cEb8aD3](https://rinkeby.etherscan.io/tx/0x5a69a6768714add4c22e6ae3bc7c499ce85d51c3428b7e3d84cbb93b090cba7f)
+    - 發行合約地址合約地址 [0x3c5f78f5836A2bbB046cf6d7254fEFb52cEb8aD3](https://rinkeby.etherscan.io/address/0x3c5f78f5836A2bbB046cf6d7254fEFb52cEb8aD3)
     - 鑄造5個NFT [Transaction Details](https://rinkeby.etherscan.io/tx/0xa05d7173e81509731ebf268ef80651b27c7d5517c0e4ab0671df1062d4327a8b)
     - 發送一個NFT給指定地址 [Transaction Details](https://rinkeby.etherscan.io/tx/0x0e142782419dc17c34df03fa14dcb40398c5444eb60c733bd798bee8bff86a3e) **0x8c86618D194627172101812b51B4b9bB794DAC4c** 
     - 燃燒一個ERC721 [Transaction Details](https://rinkeby.etherscan.io/tx/0x32a7735eb0a56c574813fd18e704a35913af2bf5d7e9839fb773d3adc7f88616)
