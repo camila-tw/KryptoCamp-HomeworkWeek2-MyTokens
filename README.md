@@ -5,21 +5,23 @@
 + 合約位置: ./contracts/KnotCoin.sol
 + 發行Knot Coin, 總量10,000,000個
 
+### 基本
 + JavaScript VM（London）
-    - 傳送指定數量給指定地址，交易成功的截圖。
+    - 添加一個功能並且傳送 n 個數量 ERC20 Token 給 **0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2** 地址，交易成功的截圖。
      ![傳送指定數量給指定地址](./Snapshots/KC%20Token%20to%200xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2.png) 
 
+### 進階
 
 +  Injected Web3（Metamask）
     - 發行合約地址合約地址 [0x311A9CE2bF897179B1bA7382ce2bB82779a2Be38](https://rinkeby.etherscan.io/address/0x311A9CE2bF897179B1bA7382ce2bB82779a2Be38)
     
     - Import小狐狸錢包
-    ![Import小狐狸錢包](./Snapshots/Snip20220520_33.png) 
+        ![Import小狐狸錢包](./Snapshots/Snip20220520_33.png) 
 
-    - 傳送 **250 KC** to 指定地址: **0x8c86618D194627172101812b51B4b9bB794DAC4c** ([Transaction Details](https://rinkeby.etherscan.io/tx/0x9dedb37f27f864d930e3e26220128c5f019cb010c528794ca5064cc59b0df4a3)) 
+    - 傳送 **250 KC** to 指定地址: **0x8c86618D194627172101812b51B4b9bB794DAC4c** ([Transaction Details](https://rinkeby.etherscan.io/tx/0x9dedb37f27f864d930e3e26220128c5f019cb010c528794ca5064cc59b0df4a3)) ![](./Snapshots/Snip20220521_34.png)
      
 
-    - 燃燒 500 KC ([Transaction Details](https://rinkeby.etherscan.io/tx/0x5a69a6768714add4c22e6ae3bc7c499ce85d51c3428b7e3d84cbb93b090cba7f))
+    - 燃燒 500 KC ([Transaction Details](https://rinkeby.etherscan.io/tx/0x5a69a6768714add4c22e6ae3bc7c499ce85d51c3428b7e3d84cbb93b090cba7f)) ![](./Snapshots/Snip20220521_35.png)
 
 ---
 
