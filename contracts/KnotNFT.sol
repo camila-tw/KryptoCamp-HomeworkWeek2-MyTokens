@@ -98,4 +98,19 @@ contract KnotNFT is ERC721, ERC721Enumerable, Ownable, ERC721Burnable{
     function isMintable(uint256 amount) view private returns (bool result){
        return mintableCount() > amount;
     }
+
+    //
+    /**
+    * @dev 傳送多個NFT給指定帳號
+    * @param tokenIDs NFT token ID
+    * @param receiver 接受者地址
+    */
+    function transferNFTsTo(uint256[] memory tokenIDs, address receiver) public onlyOwner{
+        require(tokenIDs.length > 0, "KnotNFT: Token ID is zero.");
+        require(receiver != address(0), "KnotNFT: mint to the zero address");
+
+        for (uint256 i = 0; i < tokenIDs.length; i++) {
+            safeTransferFrom(msg.sender, receiver, tokenIDs[i]);
+        }
+    }
 }
