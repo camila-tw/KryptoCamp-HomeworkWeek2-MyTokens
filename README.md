@@ -46,6 +46,6 @@
 
 不透過原有的標準 ERC20 檔案，思考如何用學習到的語法自行撰寫一個可以自訂 name, symbol，並且完成 totalSupply, balanceOf 與 transfer 的方法使用。
 
-+ Source Code [./contracts/SelfKnotCoin.sol](./contracts/SelfKnotCoin.sol)
++ Source Code [./contracts/OwnCoin.sol](./contracts/OwnCoin.sol)
 + 合約地址[0xE9B39769004f910615cb207b93a8e0cDa037346d](https://rinkeby.etherscan.io/address/0xE9B39769004f910615cb207b93a8e0cDa037346d)
 + 傳送自製Token給指定帳號 ![](./Snapshots/Snip20220521_40.png)
