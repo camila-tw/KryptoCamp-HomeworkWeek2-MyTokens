@@ -2,7 +2,7 @@
 
 ## ERC20
 
-+ 合約位置: ./contracts/KnotCoin.sol
++ 合約位置: [./contracts/KnotCoin.sol](./contracts/KnotCoin.sol)
 + 發行Knot Coin, 總量10,000,000個
 
 ### 基本
@@ -27,7 +27,7 @@
 
 ## ERC721
 
-+ 合約位置: ./contracts/KnotNFT.sol
++ 合約位置: [./contracts/KnotNFT.sol](./contracts/KnotNFT.sol)
 + 發行Knot NFT
 + JavaScript VM（London）
     - 傳送2個ERC721給指定地址交易截圖
@@ -35,6 +35,6 @@
 
 +  Injected Web3（Metamask）
     - 發行合約地址合約地址 [0x3c5f78f5836A2bbB046cf6d7254fEFb52cEb8aD3](https://rinkeby.etherscan.io/address/0x3c5f78f5836A2bbB046cf6d7254fEFb52cEb8aD3)
-    - 鑄造5個NFT [Transaction Details](https://rinkeby.etherscan.io/tx/0xa05d7173e81509731ebf268ef80651b27c7d5517c0e4ab0671df1062d4327a8b)
-    - 發送一個NFT給指定地址 [Transaction Details](https://rinkeby.etherscan.io/tx/0x0e142782419dc17c34df03fa14dcb40398c5444eb60c733bd798bee8bff86a3e) **0x8c86618D194627172101812b51B4b9bB794DAC4c** 
-    - 燃燒一個ERC721 [Transaction Details](https://rinkeby.etherscan.io/tx/0x32a7735eb0a56c574813fd18e704a35913af2bf5d7e9839fb773d3adc7f88616)
+    - 鑄造5個NFT [Transaction Details](https://rinkeby.etherscan.io/tx/0xa05d7173e81509731ebf268ef80651b27c7d5517c0e4ab0671df1062d4327a8b) ![](./Snapshots/Snip20220521_36.png)
+    - 發送一個NFT給指定地址 [Transaction Details](https://rinkeby.etherscan.io/tx/0x0e142782419dc17c34df03fa14dcb40398c5444eb60c733bd798bee8bff86a3e) **0x8c86618D194627172101812b51B4b9bB794DAC4c** ![](./Snapshots/Snip20220521_37.png)
+    - 燃燒一個ERC721 [Transaction Details](https://rinkeby.etherscan.io/tx/0x32a7735eb0a56c574813fd18e704a35913af2bf5d7e9839fb773d3adc7f88616) ![](./Snapshots/Snip20220521_38.png)
