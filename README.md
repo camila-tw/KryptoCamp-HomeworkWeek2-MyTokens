@@ -39,3 +39,13 @@
     - 發送一個NFT給指定地址 [Transaction Details](https://rinkeby.etherscan.io/tx/0x0e142782419dc17c34df03fa14dcb40398c5444eb60c733bd798bee8bff86a3e) **0x8c86618D194627172101812b51B4b9bB794DAC4c** ![](./Snapshots/Snip20220521_37.png)
     - 發送多個NFT給指定地址 ![](./Snapshots/Snip20220521_39.png)
     - 燃燒一個ERC721 [Transaction Details](https://rinkeby.etherscan.io/tx/0x32a7735eb0a56c574813fd18e704a35913af2bf5d7e9839fb773d3adc7f88616) ![](./Snapshots/Snip20220521_38.png)
+
+---
+
+### 最終作業
+
+不透過原有的標準 ERC20 檔案，思考如何用學習到的語法自行撰寫一個可以自訂 name, symbol，並且完成 totalSupply, balanceOf 與 transfer 的方法使用。
+
++ Source Code [./contracts/SelfKnotCoin.sol](./contracts/SelfKnotCoin.sol)
++ 合約地址[0xE9B39769004f910615cb207b93a8e0cDa037346d](https://rinkeby.etherscan.io/address/0xE9B39769004f910615cb207b93a8e0cDa037346d)
++ 傳送自製Token給指定帳號 ![](./Snapshots/Snip20220521_40.png)
